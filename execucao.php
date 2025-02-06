@@ -49,7 +49,7 @@ do {
             $material->setEdicao(readline("Informe a Edição: "));
             $material->setPeriodicidade(readline("Informe a Periodicidade: "));
 
-            $cmaterialDAO = new MaterialBibliotecaDAO();
+            $materialDAO = new MaterialBibliotecaDAO();
             $materialDAO->inserirMaterial($material);
 
             echo "Revista cadastradada com sucesso!!!\n";
