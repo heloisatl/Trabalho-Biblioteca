@@ -29,7 +29,6 @@ Informe o Ano de Publicação: 2006
 Informe o Editor: editor
 Informe a Edição: edicao
 Informe a Periodicidade: peridiocidade
-PHP Warning:  Undefined variable $materialDAO in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php on line 53
 PHP Fatal error:  Uncaught Error: Call to a member function inserirMaterial() on null in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php:53
 Stack trace:
 #0 {main}
