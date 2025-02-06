@@ -88,7 +88,7 @@ do {
 
         case 5:
 
-            //pra deixar o codigo mais fluido, tem como listar todos os livros ja cadastrados junto do id, para que a pessoa saiba qual id ela quer;
+            //pra deixar o codigo mais fluido, tem como listar todos os livros ja cadastrados junto do id ANTES de pedir para informar o id do material, para que a pessoa saiba qual id ela quer;
             $id = readline("Informe o ID do material: ");
 
             $materialDAO = new MaterialBibliotecaDAO();
