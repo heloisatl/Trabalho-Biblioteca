@@ -1,0 +1,80 @@
+---------- BIBLIOTECA ---------------
+1- Cadastrar Livro ------------------
+2- Cadastrar Revista ----------------
+3- Cadastrar Gibis -------------------
+4- Buscar Material da Biblioteca ---
+5- Listar Material da Biblioteca ---
+6- Excluir Material da Biblioteca --
+0- Sair -----------------------------
+Informe a opção desejada: 1
+Informe o Título: titulo
+Informe o Autor: autor
+Informe o Ano de Publicação: 2994
+Informe o Editor: editor
+Informe o Número de Páginas: 33
+Informe o Gênero: terror
+PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clientes.MaterialBiblioteca' doesn't exist in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php:26
+Stack trace:
+#0 /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php(26): PDOStatement->execute()
+#1 /home/lab/helo/Biblioteca-main/Trabalho/execucao.php(38): MaterialBibliotecaDAO->inserirMaterial()
+#2 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php on line 26
+
+
+********************************************************************************************************************************************************
+Informe a opção desejada: 2
+Informe o Título: titulo
+Informe o Autor: autor
+Informe o Ano de Publicação: 2006
+Informe o Editor: editor
+Informe a Edição: edicao
+Informe a Periodicidade: peridiocidade
+PHP Warning:  Undefined variable $materialDAO in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php on line 53
+PHP Fatal error:  Uncaught Error: Call to a member function inserirMaterial() on null in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php on line 53
+
+
+**************************************************************
+Informe a opção desejada: 3
+Informe o Título: titulo
+Informe o Autor: autor
+Informe o Ano de Publicação: 2998
+Informe o Editor: editor
+Informe o Ilustrador: ilustrador
+PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clientes.MaterialBiblioteca' doesn't exist in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php:58
+Stack trace:
+#0 /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php(58): PDOStatement->execute()
+#1 /home/lab/helo/Biblioteca-main/Trabalho/execucao.php(67): MaterialBibliotecaDAO->inserirMaterial()
+#2 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php on line 58 
+
+
+
+*****************************************
+Informe a opção desejada: 4
+PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clientes.MaterialBiblioteca' doesn't exist in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php:71
+Stack trace:
+#0 /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php(71): PDOStatement->execute()
+#1 /home/lab/helo/Biblioteca-main/Trabalho/execucao.php(75): MaterialBibliotecaDAO->listarMateriais()
+#2 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php on line 71
+
+  *******************************
+  Informe a opção desejada: 5
+Informe o ID do material: 3
+PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'clientes.MaterialBiblioteca' doesn't exist in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php:111
+Stack trace:
+#0 /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php(111): PDOStatement->execute()
+#1 /home/lab/helo/Biblioteca-main/Trabalho/execucao.php(94): MaterialBibliotecaDAO->buscarPorId()
+#2 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php on line 111
+
+***************************
+Informe a opção desejada: 6
+PHP Warning:  Undefined variable $materiaisDAO in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php on line 107
+PHP Fatal error:  Uncaught Error: Call to a member function listarMateriais() on null in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php:107
+Stack trace:
+#0 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/execucao.php on line 107
