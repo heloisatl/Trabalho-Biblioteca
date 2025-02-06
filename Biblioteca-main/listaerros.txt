@@ -1,0 +1,26 @@
+1 ok
+2 ok
+3 ok
+
+4:
+
+PHP Fatal error:  Uncaught Error: Call to a member function setId() on null in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php:98
+Stack trace:
+#0 /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php(77): MaterialBibliotecaDAO->mapMateriais()
+#1 /home/lab/helo/Biblioteca-main/Trabalho/execucao.php(76): MaterialBibliotecaDAO->listarMateriais()
+#2 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php on line 98
+
+
+
+5:
+Informe a opção desejada: 5
+Informe o ID do material: 2
+PHP Fatal error:  Uncaught Error: Call to a member function setId() on null in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php:98
+Stack trace:
+#0 /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php(118): MaterialBibliotecaDAO->mapMateriais()
+#1 /home/lab/helo/Biblioteca-main/Trabalho/execucao.php(95): MaterialBibliotecaDAO->buscarPorId()
+#2 {main}
+  thrown in /home/lab/helo/Biblioteca-main/Trabalho/DAO/MaterialBibliotecaDAO.php on line 98
+
+  
